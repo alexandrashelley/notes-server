@@ -25,4 +25,4 @@ app.delete('/notes', (req, res) => {
   res.send(JSON.stringify(notes))
 });
 
-app.listen(PORT);
+module.exports = app;
